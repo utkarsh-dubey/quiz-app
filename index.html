@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>quiz</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <header>
+                <div class="title">Awesome Quiz Application</div>
+                <div class="timer">
+                    <div class="time_left_txt">Time Left</div>
+                    <div class="timer_sec">10</div>
+                </div>
+                <div class="time_line"></div>
+            </header>
+                
+            
+            <h1 id="question">Random Question</h1>
+            <ul id="answers">
+                <li class="answer">
+                    <input type="radio" class="mcq" id="a">
+                    <label id="a_label">Option A</label>
+                </li>
+                <li class="answer">
+                    <input type="radio" class="mcq" id="b">
+                    <label id="b_label">Option B</label>
+                </li>
+                <li class="answer">
+                    <input type="radio" class="mcq" id="c">
+                    <label id="c_label">Option C</label>
+                </li>
+                <li class="answer">
+                    <input type="radio" class="mcq" id="d">
+                    <label id="d_label">Option D</label>
+                </li>
+            </ul>
+        </div>
+        <button id="button">Next</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
